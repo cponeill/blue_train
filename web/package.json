@@ -1,11 +1,26 @@
 {
-  "name": "web-app",
+  "name": "sample web app",
   "version": "0.0.1",
+  "description": "a sample node.js app for heroku",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
-    "express": "3.1.x"
+    "express": "2.5.x"
   },
   "engines": {
-    "node": "0.10.x",
-    "npm": "1.2.x"
-  }
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cponeill/blue_train.git"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "author": "C.P. ONeill",
+  "license": "BSD",
 }
